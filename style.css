@@ -25,6 +25,7 @@ body {
   top: 3px;
   text-align: center;
   width: 21px;
+  background-color: aqua;
 }
 
 #logo:hover {
