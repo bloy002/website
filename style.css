@@ -1,0 +1,58 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#particles-js {
+  height: 100%;
+  width: 100%;
+  background: url("./landing.jpg");
+  background-size: cover;
+  background-position: fixed;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) i.fa {
+  font-size: 18px;
+  position: relative;
+  top: 3px;
+  text-align: center;
+  width: 21px;
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
+.title-text {
+  font-family: "Rock Salt", cursive;
+  font-weight: bold;
+  font-size: 64px;
+  color: #f96332;
+}
+
+.description {
+  list-style: none;
+}
+
+.listitem:before {
+  content: "•";
+  color: #f96332;
+  width: 1em;
+  display: inline-block;
+  margin-left: -1em;
+  font-size: 5em;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
