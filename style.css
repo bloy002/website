@@ -44,7 +44,7 @@ body {
 
 .listitem:before {
   content: "•";
-  color: #111;
+  color: #fff;
   width: 1em;
   display: inline-block;
   margin-left: -1em;
