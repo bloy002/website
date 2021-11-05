@@ -35,7 +35,7 @@ body {
   font-family: "Rock Salt", cursive;
   font-weight: bold;
   font-size: 64px;
-  color: #f96332;
+  color: #111;
 }
 
 .description {
@@ -44,7 +44,7 @@ body {
 
 .listitem:before {
   content: "•";
-  color: #f96332;
+  color: #111;
   width: 1em;
   display: inline-block;
   margin-left: -1em;
